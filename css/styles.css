@@ -77,4 +77,13 @@ h3 {
     font-size: 1em;
 }*/
 
+pre {
+    background: #FEC62E;
+}
 
+.hero {
+    background-image: linear-gradient(to top, rgba(255,255,255, .43), transparent), url(../images/pattern.png);
+    /*background-repeat: no-repeat;
+    background-position: center;*/
+    height: 350px;
+}
