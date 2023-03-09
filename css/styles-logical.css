@@ -174,7 +174,7 @@ blockquote p {
 }
 
 .main {
-
+    margin-block-end: 80px;
 }
 
 .wrapper {
@@ -243,6 +243,23 @@ blockquote p {
     border: none;
 }
 
+footer {
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 170px;
+    justify-items: center;
+}
+
+.footer-container {
+    margin-block-start: 40px;
+}
+
+footer .footer-content img {
+    margin-block-start: 19px;
+    inline-size: 25px;
+}
 
 @media screen and (min-width: 1100px) {
 
